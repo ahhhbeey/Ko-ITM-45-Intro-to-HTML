@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* keeps it within the box, even with the paddings! */
+}
+
+header {
+  background-color: #3d0402;
+  padding: 7px 0px;
+  font-size: 1.25rem;
+}
+
+.main-nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav a {
+  color: #e5e1e6;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.menu-style {
+  border-collapse: collapse;
+  margin: 25px 0;
+  min-width: 400px;
+}
+
+div h2 {
+  text-align: center;
+}
+
+.menu-style th,
+.menu-style td {
+  padding: 12px 15px;
+}
+
+.menu-style tbody tr {
+  border-bottom: 1px solid #b1b1b1;
+}
+
+.menu-style :last-of-type {
+  border-bottom: 2px solid #3d0402;
+}
+
+.menu-product:hover {
+  color: #dddddd;
+  background-color: #3d0402;
+}
+
+.menu-display {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-logo {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.latte-logo {
+  margin: 0 0 0 1rem;
+}
+
+footer {
+  margin-top: 5rem;
+  background-color: #3d0402;
+  padding: 20px 0px 0px 0px;
+}
+
+.footer-nav ul {
+  display: flex;
+  list-style: none;
+  color: #e5e1e6;
+}
